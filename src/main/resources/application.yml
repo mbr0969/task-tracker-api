@@ -1,0 +1,28 @@
+  server:
+    port: 8080
+
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/crazy-task-tracker
+      username: papa
+      password: 777555
+      driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: validate
+      show-sql: true
+
+#  rabbitmq:
+#    host: localhost
+#    username: papa
+#    password: 777555
+#    datasource:
+#      driver-class-name: org.h2.Driver
+#      url: jdbc:h2:mem:crazay-chat-db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: false
+#      properties:
+#        hibernate:
+#          enable_lazy_load_no_trans: true

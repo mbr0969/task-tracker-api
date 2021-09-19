@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="ce27bf09-b28a-43ee-ae79-6a0144c25723" name="crazy-task-tracker" url="jdbc:postgresql://localhost/crazy-task-tracker" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
